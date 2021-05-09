@@ -51,12 +51,10 @@
                 <rect width="100%" height="100%" fill="#777"></rect>
               </svg>
               <!--heading/paragraph/button-->
-              <h2>3-Day Forecast</h2>
+              <h2>Current Weather Info</h2>
               <p>The forecast includes current temperature, humidity, wind speed/direction, and more.</p>
-              <p><button id="submitGlobal" class="btn btn-secondary" onclick="fetchTemp()">Submit</button></p>
+              <button id="resultsBtn2" class="btn btn-secondary" onclick="fetchData()">Submit</button>
             </div>
-            
-
             <br>           
             
             <!--Results Section - "pollution"-->
@@ -70,26 +68,25 @@
                   <th id="tmainus"scope="col">Main US Pollutant</th>
                 </tr>
               </thead>
-              <tbody id="results-Log" class="table-light">
+              <tbody id="resultsLog" class="table-light">
               </tbody>
             </table>
 
 
-
             <!--Results Section "forecasts"-->
-            <table class="table1 table-borderless table-striped">
+            <table class="table2 table-borderless table-striped">
               <thead class="table-light">
                 <tr>
-                  <th id="col1-ts" scope="col">Timestamp</th>
-                  <th id="col2-tp" scope="col">Temperature</th>
-                  <th id="col4-pr" scope="col">Pressure</th>
-                  <th id="col5-hu"scope="col">Humidity</th>
-                  <th id="col6-ws"scope="col">Wind Speed</th>
-                  <th id="col7-wd"scope="col">Wind Direction</th>
-                  <th id="col8-ic"scope="col">Icon</th>
+                  <th id="tTs1" scope="col">Timestamp</th>
+                  <th id="tCity1" scope="col">City</th>
+                  <th id="tCountry1" scope="col">Country</th>
+                  <th id="thumidity1" scope="col">Humidity</th>
+                  <th id="tpressure1" scope="col">Pressure</th>
+                  <th id="twinddir1"scope="col">Wind Direction</th>
+                  <th id="twindspeed1"scope="col">Wind Speed</th>
                 </tr>
               </thead>
-              <tbody id="temp-log" class="table-light">
+              <tbody id=results2log" class="table-light">
               </tbody>
             </table>
           </div>
