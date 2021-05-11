@@ -1,5 +1,5 @@
 
-const allURL = 'http://api.airvisual.com/v2/nearest_city?key=eb088148-0536-422c-b8f2-da7ef03d5245'
+const allURL = 'https://api.airvisual.com/v2/nearest_city?key=eb088148-0536-422c-b8f2-da7ef03d5245'
 
 
 //NEW RESULTS ARRAY
